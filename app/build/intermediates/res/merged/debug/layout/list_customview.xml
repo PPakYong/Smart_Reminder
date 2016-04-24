@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingTop="20dip"
+    android:paddingBottom="20dip">    
+    
+    <TextView
+        android:id="@+id/cl_temp"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_margin="5dip"/>
+    <ImageView
+        android:id="@+id/cl_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/folder"
+        android:layout_alignTop="@+id/list_customview_text1"
+        android:layout_alignBottom="@+id/list_customview_text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/cl_temp"
+        android:layout_margin="5dip"/>
+    
+    <TextView 
+        android:id="@+id/list_customview_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cl_image"
+        android:hint="text1"
+        android:textSize="30dip"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_customview_text1"
+        android:layout_alignBaseline="@+id/list_customview_text1"
+        android:text=" 물품"
+        android:textColor="#000000" />    
+    <TextView 
+        android:id="@+id/list_customview_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/list_customview_text1"
+        android:layout_alignParentRight="true"
+        android:hint="text2"
+        android:textSize="16dip"
+        android:textColor="#000000"/>
+</RelativeLayout>

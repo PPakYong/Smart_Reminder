@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/legoist">
+    <TextView
+        android:id="@+id/dev_inform_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dev Team. LEGOIST"       
+        android:textSize="20dip"
+        android:textColor="#000000"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/dev_inform_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LEGOIST는 남서울대학교 컴퓨터학과의 3~4인으로 구성되는 프로젝트 팀으로써 생각을 조립해 프로그래밍한다는 이상을 갖고 프로그래밍을 하는 팀입니다."
+        android:textSize="13dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_below="@+id/dev_inform_title"/>  
+        
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dev_inform_note"
+        android:layout_above="@+id/dev_exit"
+        android:layout_marginBottom="10dip ">  
+        <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+        
+        <TextView 
+	       android:id="@+id/dev_scroll_text1"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:hint="1기정보"
+	       android:textSize="15dip"
+	       android:gravity="left"
+	       android:textColor="#000000"
+	       android:textStyle="bold"	/>
+	    
+	    <TextView
+	        android:id="@+id/dev_email"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/dev_scroll_text1"
+	        android:layout_marginTop="20dip"
+	        android:text="E-MAIL: team.legoist@gmail.com"
+	        android:autoLink="email" />
+	    
+	    <TextView
+	        android:id="@+id/dev_facebook"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/dev_email"
+	        android:layout_marginTop="3dip"
+	        android:text="Facebook: www.facebook.com/Team.LEGOIST"
+	        android:autoLink="web" />
+	    </RelativeLayout> 
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/dev_exit"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"  		
+   		android:layout_alignParentBottom="true"
+   		android:text="확인" />
+</RelativeLayout>

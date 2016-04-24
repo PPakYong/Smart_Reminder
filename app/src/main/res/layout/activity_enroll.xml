@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"     
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <ScrollView 
+        android:id="@+id/en_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/en_save_btn"
+        android:padding="10dip"
+        android:background="#ffffff" >        
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:background="#ffffff" >
+        	 	<TextView
+			        android:id="@+id/en_temp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_centerHorizontal="true" />     
+			    <TextView
+			        android:id="@+id/en_view1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/en_temp"
+			        android:layout_marginLeft="10dip"
+			        android:layout_marginRight="10dip"
+			        
+			        android:text="물품명"
+			       	android:textColor="#000000"
+			       	android:textSize="20dp" 
+			       	android:gravity="left"/>
+			    
+			    <TextView
+			        android:id="@+id/en_view1_1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignRight="@+id/en_view1"
+			        android:layout_alignBaseline="@+id/en_view1" 
+			        android:layout_toRightOf="@+id/en_temp"
+			        android:layout_marginLeft="80dip"
+			        android:hint = "-- 선택"
+			        android:gravity="right"
+			        android:textSize="10dip" />			    	
+   
+			    <Spinner 
+			       android:id="@+id/en_spinner_name"
+			       android:layout_width="fill_parent"
+				   android:layout_height="wrap_content"
+				   android:layout_alignLeft="@+id/en_view1"
+				   android:layout_alignRight="@+id/en_view1"	
+				   android:layout_below="@+id/en_view1"
+				   android:layout_marginTop="10dip"				/>
+	
+				<TextView
+			        android:id="@+id/en_view2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/en_view1"
+			        android:layout_alignRight="@+id/en_view1"	
+			        android:layout_below="@+id/en_spinner_name"
+			        android:layout_marginTop="10dip"
+			        
+			        android:text="휴대시기"
+			       	android:textColor="#000000"
+			       	android:textSize="20dp" 
+			       	android:gravity="left"/>
+				
+				 <TextView
+			        android:id="@+id/en_view2_2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignRight="@+id/en_view2"
+			        android:layout_alignBaseline="@+id/en_view2" 
+			        android:layout_toRightOf="@+id/en_temp"
+			        android:layout_marginLeft="80dip"
+			        android:hint = "-- 선택"
+			        android:gravity="right"
+			        android:textSize="10dip" />
+				
+				<Spinner 
+				    android:id="@+id/en_spinner_carry"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_alignLeft="@+id/en_view1"
+				    android:layout_alignRight="@+id/en_view1"	
+				    android:layout_below="@+id/en_view2"
+				    android:layout_marginTop="10dip"/>
+	
+				<ImageView
+				    android:id="@+id/en_image"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:layout_alignBottom="@+id/en_spinner_carry"
+				    android:layout_alignParentLeft="true"
+				    android:layout_alignRight="@+id/en_temp"
+				    android:layout_alignTop="@+id/en_view1"
+				    android:layout_marginLeft="10dip"
+				    android:layout_marginRight="10dip"
+				    android:onClick="en_click"
+				    android:src="@drawable/photo" />
+       
+				<TextView 
+				    android:id="@+id/en_view4"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/en_image"
+				    android:layout_marginTop="20dip"
+				    android:layout_alignLeft="@+id/en_image"
+				    android:layout_alignRight="@+id/en_image" 
+				    
+				    android:text="구 입 일 자"
+			       	android:textColor="#000000"
+			       	android:textSize="20dp" 
+			       	android:gravity="center"/>
+				<Button
+				    android:id="@+id/en_purchase_date"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/en_view4"
+				    android:layout_marginTop="10dip"
+				    android:layout_marginLeft="10dip"
+				    android:layout_marginRight="10dip"
+				    
+				    android:hint="이 곳을 눌러서 구입일자을 입력하세요."
+				    android:onClick="en_click"/>
+				
+				<TextView 
+				    android:id="@+id/en_view5"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/en_purchase_date"
+				    android:layout_marginTop="10dip"
+				    android:layout_alignLeft="@+id/en_image"
+				    android:layout_alignRight="@+id/en_image" 
+				    
+				    android:text="구 입 지 점"
+			       	android:textColor="#000000"
+			       	android:textSize="20dp" 
+			       	android:gravity="center"/>
+				
+				<EditText
+				    android:id="@+id/en_purchase_place"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/en_view5"
+				    android:layout_marginTop="10dip"
+				    android:layout_marginLeft="10dip"
+				    android:layout_marginRight="10dip"
+				    
+				    android:hint="이 곳을 눌러서 구입장소를 입력하세요."				    
+					android:gravity="center"
+					android:imeOptions="actionDone"
+					android:singleLine="true"
+		       		android:selectAllOnFocus="true"/>
+		</RelativeLayout>
+</ScrollView>
+
+          <Button
+    	      android:id="@+id/en_save_btn"
+    	      android:layout_width="wrap_content"
+    	      android:layout_height="wrap_content"
+    	      android:layout_above="@+id/tempView"
+    	      android:layout_centerHorizontal="true"
+    	      android:onClick="en_click"
+    	      android:drawableLeft="@drawable/save"
+    	      android:text="소지품\n저장하기" />
+          
+          <TextView
+		     android:id="@+id/tempView"
+			 android:layout_width="300dip"
+			 android:layout_height="50dip"
+			 android:layout_alignParentBottom="true"
+			 android:layout_centerHorizontal="true"
+			 android:text="광고 게시공간"
+			 android:gravity="center"/>
+	  		
+    	  <com.google.ads.AdView 
+	    	 android:id="@+id/adView"
+		     android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:layout_centerHorizontal="true"
+			 android:layout_alignParentBottom="true"
+			 android:layout_marginTop="5dip"
+			 ads:adUnitId="a1501b5f7829e2d"
+			 ads:adSize="BANNER"
+			 ads:loadAdOnCreate="true"/>
+
+
+
+</RelativeLayout>

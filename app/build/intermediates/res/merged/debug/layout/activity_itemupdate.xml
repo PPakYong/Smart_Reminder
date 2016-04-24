@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"     
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+    
+    <ScrollView 
+        android:id="@+id/iu_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:padding="5dip"
+        android:background="#ffffff" >        
+        
+        <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#ffffff" >
+	        <TextView
+				android:id="@+id/iu_temp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true" />     
+			<TextView
+				android:id="@+id/iu_view1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/iu_temp"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				
+				android:text="물품명"
+				android:textColor="#000000"
+				android:textSize="20dp" 
+				android:gravity="left"/>
+			   
+			<EditText
+				android:id="@+id/iu_name"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/iu_view1"
+				android:layout_alignRight="@+id/iu_view1"
+				android:layout_below="@+id/iu_view1"
+				android:layout_marginTop="5dip"
+				
+				android:hint="수동엽릭제공"
+				android:gravity="right|center"
+				android:imeOptions="actionDone"
+				android:singleLine="true"
+	       		android:selectAllOnFocus="true"/>
+			
+			<TextView
+				android:id="@+id/iu_view2"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/iu_view1"
+				android:layout_alignRight="@+id/iu_view1"
+				android:layout_below="@+id/iu_name"
+				android:layout_marginTop="10dip"
+				
+				android:text="휴대시기"
+				android:textColor="#000000"
+				android:textSize="20dp" 
+				android:gravity="left"/>
+			
+			<EditText 
+				android:id="@+id/iu_carry"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/iu_view1"
+				android:layout_alignRight="@+id/iu_view1"
+				android:layout_below="@+id/iu_view2"
+				android:layout_marginTop="5dip"
+				
+				android:hint="수동엽릭제공"
+				android:gravity="right|center"
+				android:imeOptions="actionDone"
+				android:singleLine="true"
+	       		android:selectAllOnFocus="true"/>
+			
+			
+			<ImageView
+			    android:id="@+id/iu_image"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_below="@+id/iu_temp"
+			    android:layout_alignTop="@+id/iu_view1"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignRight="@+id/iu_temp"
+			    android:layout_alignBottom="@+id/iu_carry"    
+			    android:layout_marginLeft = "10dip"
+			    android:layout_marginRight = "10dip"
+			    android:onClick="iu_click" />
+			
+			<TextView 
+				android:id="@+id/iu_view4"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/iu_image"
+				android:layout_marginTop="10dip"
+				android:layout_alignLeft="@+id/iu_image"
+				android:layout_alignRight="@+id/iu_image" 
+				
+				android:text="구 입 일 자"
+				android:textColor="#000000"
+				android:textSize="20dp" 
+				android:gravity="center"/>
+			
+			<Button
+				android:id="@+id/iu_purchase_date"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/iu_view4"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				
+				android:hint="이 곳을 눌러서 구입일자을 입력하세요."
+				android:onClick="iu_click"/>
+			
+			<TextView 
+				android:id="@+id/iu_view5"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/iu_purchase_date"
+				android:layout_marginTop="10dip"
+				android:layout_alignLeft="@+id/iu_image"
+				android:layout_alignRight="@+id/iu_image" 
+				
+				android:text="구 입 지 점"
+				android:textColor="#000000"
+				android:textSize="20dp" 
+				android:gravity="center"/>
+			
+			<EditText
+				android:id="@+id/iu_purchase_place"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/iu_view5"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				
+				android:hint="수동입력제공"
+				android:gravity="center"
+				android:imeOptions="actionDone"
+				android:singleLine="true"
+	       		android:selectAllOnFocus="true"/>
+			</RelativeLayout>
+	</ScrollView>
+	<Button
+		android:id="@+id/iu_save_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/iu_scrollView"
+		android:layout_centerHorizontal="true"
+		android:onClick="iu_click"
+		android:drawableLeft="@drawable/save"
+		android:text = "수 정 하 기" />
+</RelativeLayout>

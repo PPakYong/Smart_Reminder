@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+    
+    <TextView
+        android:id="@+id/which_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:hint="Title"
+        android:gravity="center|left"
+        android:textColor="#ffffff" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/which_title"
+        android:layout_alignBottom="@+id/which_address"
+        android:gravity="center"
+        android:textSize="40dip"
+        android:text=">" 
+        android:textColor="#ffffff"      	/>
+    
+    <TextView 
+        android:id="@+id/which_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/which_title"
+        android:hint="latitude"
+        android:textColor="#a9a9a9"/>
+    <TextView
+        android:id="@+id/which_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/which_latitude"
+        android:layout_toRightOf="@+id/which_latitude"
+        android:layout_marginLeft="10dip"
+        android:hint="longitude"
+        android:textColor="#a9a9a9" />
+    <TextView
+        android:id="@+id/which_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/which_latitude"
+        android:textColor="#ffffff" 
+        android:textSize="15dip"
+        android:hint="address"/>
+</RelativeLayout>

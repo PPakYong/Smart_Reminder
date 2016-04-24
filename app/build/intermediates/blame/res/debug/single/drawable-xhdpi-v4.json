@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\update.png",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\drawable-xhdpi\\update.png"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_arrow.png",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\drawable-xhdpi\\left_arrow.png"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\delete.png",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\drawable-xhdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_arrow.png",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\drawable-xhdpi\\right_arrow.png"
+    }
+]

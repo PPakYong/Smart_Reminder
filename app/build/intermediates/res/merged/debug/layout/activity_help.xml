@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    	<TextView
+	    android:id="@+id/helpTitle"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:text="매니저메뉴 도움말"
+	    android:gravity="center"
+	    android:textSize="30dip"
+	    android:textColor="#000000" />
+    <ImageView
+        android:id="@+id/helpView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/helpBefore"
+        android:layout_below="@+id/helpTitle"
+        android:src="@drawable/help1" />
+    
+    <Button
+        android:id="@+id/helpBefore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:drawableTop="@drawable/left_arrow"
+        android:text="이전 도움말"
+        android:gravity="center"
+        android:onClick="helpClick" />
+    <Button
+        android:id="@+id/helpExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도움말 종료"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="helpClick"/>
+    
+    <Button
+        android:id="@+id/helpNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:drawableTop="@drawable/right_arrow"
+        android:text="다음 도움말"
+        android:gravity="center" 
+        android:onClick="helpClick"/>
+
+</RelativeLayout>

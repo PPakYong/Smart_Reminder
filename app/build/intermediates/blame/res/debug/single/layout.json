@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_itemview.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_itemview.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seekbar_dialog.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\seekbar_dialog.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_itemupdate.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_itemupdate.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patchnoteview.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_patchnoteview.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_customview.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\list_customview.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\widget.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_howtogo.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\dialog_howtogo.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_title_bar.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\custom_title_bar.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customlist_howto.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\customlist_howto.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_which.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\dialog_which.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\etc_name.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\etc_name.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_devinfo.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_devinfo.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splashview.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_splashview.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customlist_which.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\customlist_which.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_noti.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_noti.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notidialog.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_notidialog.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listupdate_customdialog.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\listupdate_customdialog.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enroll.xml",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\layout\\activity_enroll.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip" >
+    <TextView 
+        android:id="@+id/etc_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="물품명을 직접 입력하세요:"
+        android:textColor="#ffffff"
+        android:textSize="15dip"   />
+    <EditText
+        android:id="@+id/etc_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etc_name_textview"
+        android:hint="한/영 구분 없이 최소 2자 이상!"
+        android:imeOptions="actionDone" />
+</RelativeLayout>

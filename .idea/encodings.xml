@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/db/DB_setting.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/enrollitem/enrollActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/enrollitem/itemupdateActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/listActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/notiActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/service/AlarmReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/service/Widget.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/service/mapService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/service/notidialogActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/service/notidialogActivity_map.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/service/timeService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/setting/devinfoActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/setting/helpActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/setting/patchnoteActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/setting/settingActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/splashActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/legoist/smart_reminder/viewitem/itemviewActivity.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Reminder</string>
+
+    <string-array name="iname">        
+        <item>가방/책/서류</item>
+        <item>지갑/카드/돈</item>        
+        <item>MP3/이어폰</item>
+        <item>USB/외장HDD</item>
+        <item>태블릿/노트북</item>
+        <item>화장품/생필품</item>
+        <item>수동입력</item>
+    </string-array>
+
+    <string-array name="icarry">
+	<item>항상휴대</item>
+	<item>자택보관</item>
+	<item>학교/회사</item>
+	<item>약속/외출</item>
+    </string-array>
+
+    <string-array name="alarm_option">
+        <item>소리Only</item>
+        <item>소리+진동</item>
+        <item>진동Only</item>
+        <item>팝업만허용</item>        
+    </string-array>
+ 
+    <string name="note">"Smart Reminder는 당신의 소지품을 정보화 시키고 분실을 예방하는데 도움이 되고자 제작되었습니다. 지속적인 개발로 편의성을 늘리도록 꾸준히 노력하겠습니다!" </string>
+    <string name="dev_name">"Dev Team. LEGOIST" </string>
+    <string name="dev_note">"LEGOIST는 남서울대학교 컴퓨터학과의 3인으로 구성되는 프로젝트 팀으로써 생각을 조립해 프로그래밍한다는 이상을 갖고 프로그래밍을 하는 팀입니다." </string>
+    <string name="dev_inform">
+        "since 2011.9: 1기 구성\n\n"
+        "Project Manager: Park Yong Hyeon\n"
+        "Documentation: Kim Seung Hyuk\n"
+        "Quality Assurance: Park Je Sung\n\n\n"
+        "Developments:\n"
+        "Android Application - Smart Reminder\n\n"
+        "Contact:\n"
+        "team.legoist@gmail.com\n"
+        "Facebook: http://www.facebook.com/Team.LEGOIST"	</string>
+    <string name="menu_settings">Settings</string> 
+
+</resources>

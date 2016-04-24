@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dip"     >
+    <ListView
+        android:id="@+id/setting_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tempView" />
+    
+    <TextView
+	     android:id="@+id/tempView"
+		 android:layout_width="300dip"
+		 android:layout_height="50dip"
+		 android:layout_alignParentBottom="true"
+		 android:layout_centerHorizontal="true"
+		 android:text="광고 게시공간"
+		 android:gravity="center"/>
+    
+    <com.google.ads.AdView 
+   		android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		ads:adUnitId="a1501b5f7829e2d"
+		ads:adSize="BANNER"
+		ads:loadAdOnCreate="true"/>
+
+</RelativeLayout>

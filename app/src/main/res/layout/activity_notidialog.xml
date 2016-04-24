@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#000000" >
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/notidialog_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* 각각의 소지품들의 현재 소지를 확인해 보세요!"
+        android:textSize="14dip"
+        android:textColor="#ffffff"
+        android:layout_margin="10dip"
+        android:gravity="center" />
+    
+    <ListView 
+        android:id="@+id/notidialog_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_below="@+id/notidialog_text"/>  
+        
+    <Button
+        android:id="@+id/notidialog_ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notidialog_list"
+        android:layout_alignRight="@+id/temp"
+        android:text="확인완료"
+        android:gravity="center"
+        android:onClick="notidialogClick" />
+    
+      <Button
+        android:id="@+id/notidialog_stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notidialog_list"
+        android:layout_alignLeft="@+id/temp"
+        android:text="알람종료"
+        android:gravity="center"
+        android:onClick="notidialogClick" />
+      
+	<com.google.ads.AdView 
+	  	android:id="@+id/adView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/notidialog_stop_btn"
+		ads:adUnitId="a1501b5f7829e2d"
+		android:layout_marginTop="10dip"
+		ads:adSize="BANNER"
+		ads:loadAdOnCreate="true"/>
+</RelativeLayout>

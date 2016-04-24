@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >  
+    
+	    <RelativeLayout 
+	        android:id="@+id/noti_btn_page"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	          <TextView 
+		        android:id="@+id/noti_temp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true" />          
+						    <RelativeLayout
+						        android:id="@+id/timenoti_btn_back"
+						        android:layout_width="wrap_content"
+						        android:layout_height="60dip"
+						        android:layout_alignRight="@+id/noti_temp">						        
+						        <ImageButton 
+						            android:id="@+id/timenoti_btn"
+						            android:layout_width="match_parent"
+						            android:layout_height="match_parent"
+						            android:src="@drawable/time"
+						            android:onClick="pageClick"/>
+						        <TextView 
+						            android:id="@+id/timenoti_btn_name"
+						            android:layout_width="fill_parent"
+						            android:layout_height="wrap_content"
+						            android:text="무작위 시간 알람"
+						            android:gravity="center"
+						            android:layout_alignBottom="@+id/timenoti_btn"/>
+						    </RelativeLayout>
+	    
+	    
+						    <RelativeLayout
+						        android:id="@+id/mapnoti_btn_back"
+						        android:layout_width="wrap_content"
+						        android:layout_height="60dip"
+						        android:layout_alignLeft="@+id/noti_temp">						        
+						        <ImageButton 
+						            android:id="@+id/mapnoti_btn"
+						            android:layout_width="match_parent"
+						            android:layout_height="match_parent"
+						            android:src="@drawable/map"
+						            android:onClick="pageClick"/>
+						        <TextView 
+						            android:id="@+id/mapnoti_btn_name"
+						            android:layout_width="fill_parent"
+						            android:layout_height="wrap_content"
+						            android:text="위치 산정 알람"
+						            android:gravity="center"
+						            android:layout_alignBottom="@+id/mapnoti_btn"/>
+					   		 </RelativeLayout>
+	    </RelativeLayout>
+	    
+	    
+				    <RelativeLayout 
+				        android:id="@+id/timenoti_page"
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:layout_below="@+id/noti_btn_page"
+				        android:layout_above="@+id/tempView">				        
+						    <RelativeLayout
+							    android:layout_width="match_parent"
+							    android:layout_height="match_parent" >
+						    	<TextView 
+						    	    android:id="@+id/timenoti_title"
+						    	    android:layout_width="match_parent"
+						    	    android:layout_height="wrap_content"
+						    	    android:text="※ 관리하고 싶은 소지품 목록을 선택하세요."
+						    	    android:textColor="#000000"
+						    	    android:textSize="15dip"
+						    	    android:layout_margin="10dip"/>
+							    <ListView
+							        android:id="@+id/timenoti_list"
+							        android:layout_width="fill_parent"
+							        android:layout_height="wrap_content"
+							        android:layout_below="@+id/timenoti_title"
+							        android:layout_above="@+id/noti_btn_off"	        
+							        android:padding="10dip" />	
+							        
+			     				 <ImageButton 
+							        android:id="@+id/noti_btn_off"
+							        android:layout_width="fill_parent"
+							        android:layout_height="wrap_content"
+							        android:src="@drawable/off"
+							        android:layout_alignParentBottom="true"
+							        android:layout_centerHorizontal="true"
+							        android:onClick="switchClick"/>
+				      
+				  			    <ImageButton 
+							        android:id="@+id/noti_btn_on"
+							        android:layout_width="fill_parent"
+							        android:layout_height="wrap_content"
+							        android:src="@drawable/on"
+							        android:layout_alignParentBottom="true"
+							        android:layout_centerHorizontal="true"
+							        android:onClick="switchClick"
+							        android:visibility="invisible"/>	
+							</RelativeLayout>
+					</RelativeLayout>
+					
+				    
+				    <RelativeLayout
+				        android:id="@+id/mapnoti_page"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:layout_below="@+id/noti_btn_page"
+					    android:layout_above="@+id/tempView"
+					    android:background="@drawable/patchnote"
+					    android:visibility="invisible" >
+					    <EditText 
+					        android:id="@+id/map_search"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_alignParentTop="true"
+					        android:layout_toLeftOf="@+id/map_btn"
+					        android:imeOptions="actionDone"
+					        android:singleLine="true"
+					        android:hint="ex)강남 스타벅스"/>
+					    <ImageButton 
+					        android:id="@+id/map_btn"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/search"
+					        android:layout_alignParentTop="true"
+					        android:layout_alignParentRight="true"
+					        android:onClick="funcClick"/>
+					    
+					    <com.google.android.maps.MapView
+					        android:id="@+id/map"
+					        android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_below="@+id/map_search"
+							android:layout_above="@+id/map_btn_on"
+							android:apiKey="0T_zqFKTNUe1gWd2lk-fpkv29f2LNWY3EJzPAPA"
+							android:clickable="true"/>
+					    
+					    <ImageButton 
+					        android:id="@+id/myLocation"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_alignTop="@+id/map"
+					        android:layout_toLeftOf="@+id/selfchoice"
+					        android:layout_marginRight="5dip"
+					        android:src="@drawable/now"
+					        android:onClick="funcClick"/>
+					    <ImageButton
+					        android:id="@+id/selfchoice"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_alignTop="@+id/map"
+					        android:layout_alignRight="@+id/map_btn"
+					        android:src="@drawable/self"
+					        android:onClick="funcClick"/>
+					    <ImageButton 
+					        android:id="@+id/map_btn_off"
+					        android:layout_width="fill_parent"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/off"
+					        android:layout_alignParentBottom="true"
+					        android:layout_centerHorizontal="true"
+					        android:onClick="funcClick"/>
+				  		<ImageButton 
+					        android:id="@+id/map_btn_on"
+					        android:layout_width="fill_parent"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/on"
+					        android:layout_alignParentBottom="true"
+					        android:layout_centerHorizontal="true"
+					        android:visibility="invisible"
+					        android:onClick="funcClick"/>	
+					</RelativeLayout>
+					
+				      <TextView
+					     android:id="@+id/tempView"
+						 android:layout_width="300dip"
+						 android:layout_height="50dip"
+						 android:layout_alignParentBottom="true"
+						 android:layout_centerHorizontal="true"
+						 android:text="광고 게시공간"
+						 android:gravity="center"/>
+					  <com.google.ads.AdView 
+					     android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerHorizontal="true"
+                         android:layout_alignParentBottom="true"
+                         ads:adUnitId="a1501b5f7829e2d"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+</RelativeLayout>

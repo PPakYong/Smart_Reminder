@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\dialog.wav",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\raw\\dialog.wav"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\select.wav",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\raw\\select.wav"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\delete.wav",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\raw\\delete.wav"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\clear.wav",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\raw\\clear.wav"
+    },
+    {
+        "merged": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\dingdong.wav",
+        "source": "C:\\workspace\\Smart_Reminder_0.9.4v1\\app\\src\\main\\res\\raw\\dingdong.wav"
+    }
+]
